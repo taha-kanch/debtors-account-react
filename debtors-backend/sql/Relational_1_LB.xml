@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+<changeSet author="Adixoo-Taha" id="_10">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter="/" splitStatements="false"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Structure_Type\MDSYS.SDO_GEOMETRY.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_20">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter="/" splitStatements="false"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Structure_Type\XMLTYPE.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_30">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_40">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_Constraints.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_50">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_tax.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_60">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_tax_Constraints.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_70">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_uom.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_80">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_uom_Constraints.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_90">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_uom.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_100">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_uom_Constraints.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_110">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\ForeignKey\ac_item_tax_ac_item_FK.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_120">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\ForeignKey\ac_item_uom_ac_item_FK.sql"/>
+</changeSet>
+<changeSet author="Adixoo-Taha" id="_130">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="debtors_model\Relational_1\Oracle_Database_12c\DataObjects\ForeignKey\ac_item_uom_ac_uom_FK.sql"/>
+</changeSet>
+</databaseChangeLog>

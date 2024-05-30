@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7FAEBC62-ADD5-3270-398D-96BB28A9509F">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:29:49 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

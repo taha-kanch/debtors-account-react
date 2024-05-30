@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E1A8FB1-F07A-2FF7-3D85-1664F2250BFD" name="ac_item_uom">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:51:50 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="item_code" id="73C9FCF9-F25F-1F2F-FC43-2D93D8D0F45E">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:52:50 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11356FCE-5035-7FAF-7EE4-3F99045A062F" referredColumn="498CC1E2-8FFC-6026-83EF-BAFA8B305D84"/>
+</associations>
+</Column>
+<Column name="uom_code" id="47F01645-F3BA-10AC-2084-9ADC1A862D93">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:52:50 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C7F6BCE-C77D-AAF2-67C8-547072C26A37" referredColumn="23296506-DBBE-EB98-F5CD-9534354B2C8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8533114F-D64F-32B8-C820-11138F14ED23" name="ac_item_uom_PK">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:52:50 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73C9FCF9-F25F-1F2F-FC43-2D93D8D0F45E"/>
+<colUsage columnID="47F01645-F3BA-10AC-2084-9ADC1A862D93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74B371C3-339F-02CF-F323-9E01767EE1D6" name="ac_item_uom_ac_item_FK">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:55:46 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73C9FCF9-F25F-1F2F-FC43-2D93D8D0F45E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95213259-78D3-6725-786D-2072776A8B96" name="ac_item_uom_ac_uom_FK">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:56:03 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47F01645-F3BA-10AC-2084-9ADC1A862D93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

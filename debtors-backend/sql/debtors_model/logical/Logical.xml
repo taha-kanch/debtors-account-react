@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C32CBB7A-2634-5C6B-2499-1B9D33A1550B" mainViewID="7D49F537-1340-EB8D-3AA4-3737273EBAE5">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:29:49 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

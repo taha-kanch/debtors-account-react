@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="496B12F0-0EA7-57AE-50A6-1532FA56711F" name="ac_uom">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:45:21 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="23296506-DBBE-EB98-F5CD-9534354B2C8B">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:46:05 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DE96E775-A012-7057-F8AD-9AD9205084E6">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:46:05 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04A8A09C-C49C-A0D6-3A54-49CE5A2D42AE" name="ac_uom_PK">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:46:05 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23296506-DBBE-EB98-F5CD-9534354B2C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7C0A163-E78F-374A-C8B0-022D152CBDE0" name="ac_uom__UN">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:48:05 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE96E775-A012-7057-F8AD-9AD9205084E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E60A9D68-C499-9694-0F39-338B6E36D2D8" name="ac_item_tax">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:56:38 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="item_code" id="47F3F66F-F9E2-44BF-B300-B8EB035E74B9">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:57:15 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36B64950-F9AD-8FA3-98C3-2D1CA089AC48" referredColumn="498CC1E2-8FFC-6026-83EF-BAFA8B305D84"/>
+</associations>
+</Column>
+<Column name="cgst" id="BA951059-ABA0-D754-8F8D-C10C8BE7BBB7">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:57:15 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sgst" id="24B21495-CD43-413C-9A60-109D6BBB92B1">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:57:15 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="igst" id="DD35FD22-284A-AF14-F20C-BAE60F1C16C2">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:57:15 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6769F952-65C7-07D4-2112-1193AD3E4042" name="ac_item_tax_PK">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:57:15 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47F3F66F-F9E2-44BF-B300-B8EB035E74B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D12EE5F-109F-704A-BCC1-8E056B9F2556" name="ac_item_tax_ac_item_FK">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 21:00:12 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47F3F66F-F9E2-44BF-B300-B8EB035E74B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
