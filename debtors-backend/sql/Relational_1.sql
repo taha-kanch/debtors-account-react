@@ -1,0 +1,13 @@
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Structure_Type\MDSYS.SDO_GEOMETRY.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Structure_Type\XMLTYPE.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_Constraints.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_tax.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_tax_Constraints.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_uom.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_item_uom_Constraints.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_uom.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\Table\ac_uom_Constraints.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\ForeignKey\ac_item_tax_ac_item_FK.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\ForeignKey\ac_item_uom_ac_item_FK.sql
+@@debtors_model\Relational_1\Oracle_Database_12c\DataObjects\ForeignKey\ac_item_uom_ac_uom_FK.sql

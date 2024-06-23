@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="debtors_model" id="2FD4F1A1-FAF5-3C3D-0077-250B7236DC60" version="3.5">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:29:49 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2FD4F1A1-FAF5-3C3D-0077-250B7236DC60</designId>
+</OSDM_Design>

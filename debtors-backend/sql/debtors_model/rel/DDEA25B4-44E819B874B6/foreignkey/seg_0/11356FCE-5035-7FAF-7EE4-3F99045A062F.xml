@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11356FCE-5035-7FAF-7EE4-3F99045A062F" containerWithKeyObject="0E1A8FB1-F07A-2FF7-3D85-1664F2250BFD" localFKIndex="74B371C3-339F-02CF-F323-9E01767EE1D6" name="ac_item_uom_ac_item_FK">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:55:46 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<referredTableLongName>ac_item</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE9DCCC9-5BAA-F3ED-F64C-7CC6982440CC</referredTableID>
+<keyObject>EE7F5F40-8540-B763-9316-06A0446BABFB</keyObject>
+<referredKeyID>EE7F5F40-8540-B763-9316-06A0446BABFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

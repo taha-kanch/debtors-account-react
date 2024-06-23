@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="DDEA25B4-9377-DF7B-AE52-44E819B874B6" mainViewID="B46DA423-DB88-8F46-C289-CFD7AC1DCCA8">
+<createdBy>Adixoo-Taha</createdBy>
+<createdTime>2024-01-18 20:29:53 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
